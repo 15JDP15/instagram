@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.login-container {
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.login-form img.logo {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 3px;
+    background-color: #0095f6;
+    color: white;
+    cursor: pointer;
+}
+
+.separator {
+    margin: 20px 0;
+    color: #8e8e8e;
+}
+
+.login-with-facebook, .forgot-password {
+    display: block;
+    color: #00376b;
+    font-size: 0.9em;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.login-with-facebook:hover, .forgot-password:hover {
+    text-decoration: underline;
+}
